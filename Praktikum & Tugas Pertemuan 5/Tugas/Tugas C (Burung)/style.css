@@ -1,0 +1,64 @@
+  body{
+  background-color: beige;
+  }
+
+  h1{
+  text-align: center;
+  color: darkblue;
+  font-family: Times New Roman;
+  }
+  
+  h3{
+    font-family: Times New Roman;
+    color: darkblue;
+  }
+  
+  blockquote{
+    background-color: gold;
+    text-align: center;
+    border-top: 2px dotted black;
+    border-left: 2px dotted black;
+  }
+  
+  .madara{
+    text-align: center;
+  }
+
+  #header{
+    background-color: burlywood;
+    padding: 15px;
+    border: 2px;
+  }
+ 
+  .gambar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .isi::first-letter {
+    color: blue;
+    font-size: 50px;
+  }
+
+  .koleksi{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px; 
+  }
+  
+  .koleksi img{
+    width: 23%;
+  }
+  
+ .promo{
+   color: red;
+   text-align: center;
+ }
+
+ #itachi{
+    color: darkblue;
+    font-size: 25px;
+    background-color: gold;
+    width: fit-content;
+  }
