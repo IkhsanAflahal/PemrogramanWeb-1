@@ -1,0 +1,15 @@
+body{
+  background-color: antiquewhite;
+  display: flex;
+}
+
+.foto{
+  margin: 20px;
+  border: 2px solid black;
+}
+
+.foto img{
+  width: 270px;
+  height: 320px;
+  
+}

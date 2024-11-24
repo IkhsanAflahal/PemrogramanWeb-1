@@ -1,0 +1,66 @@
+.top{
+  display: flex;
+}
+.xixi{
+  width: 880px; 
+  height: 150px;
+  border: 1px solid black;
+  float: left;
+  background-color: aquamarine;
+  
+}
+
+.zizi{
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+  float: left;
+  background-color: skyblue;
+  margin-right: 20px;
+}
+
+.midle{
+  display: flex;
+}
+
+.xuxu{
+  width: 150px;
+  height: 600px;
+  border: 1px solid black;
+  float: left;
+  margin-top: 20px;
+  background-color: floralwhite;
+  margin-right: 20px;
+}
+
+.xoxo{
+  width: 700px;
+  height: 600px;
+  border: 1px solid black;
+  float: left;
+  margin-top: 20px;
+  margin-right: 20px;
+  background-color: lavender;
+}
+
+.zuzu{
+  width: 150px;
+  height: 600px;
+  border: 1px solid black;
+  float: left;
+  margin-top: 20px;
+  background-color: floralwhite;
+}
+
+.bottom{
+  display: flex;
+}
+
+.xexe{
+  width: 1045px;
+  height: 150px;
+  border: 1px solid black;
+  float: left;
+  margin-top: 20px;
+  background-color: skyblue;
+}
