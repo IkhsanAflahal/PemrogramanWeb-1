@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Rental Mobil Ichaan</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link href="LP.css" rel="stylesheet"/>
+  <script src="LP.js"></script>
+</head>
+
+ <body>
+  <div class="navbar">
+   <div style="display: flex; align-items: center;">
+    <img alt="Logo" height="40" src="img/logo.png" width="40"/>
+    <h1>Rental Mobil Ichaan</h1>
+
+   </div>
+   <ul>
+    <li>
+     <a href="#pesan">Pesan Sekarang</a>
+    </li>
+    <li>
+     <a href="#mobil">Daftar Mobil</a>
+    </li>
+    <li>
+     <a href="#promo">Promo Kami</a>
+    </li>
+    <li>
+     <a href="#sosmed">Sosmed Kami</a>
+    </li>
+    <li>
+     <a href="#login">Login</a>
+    </li>
+   </ul>
+  </div>
+
+  <div class="hero">
+   <img alt="car"  src="img/banner.jpg"/>
+   <h2>Rental Mobil Ichaan</h2>
+  </div>
+
+  <div class="container">
+   <div class="sidebar">
+    <h3 id="login">Login</h3>
+    <input placeholder="Username" type="text"/>
+    <input placeholder="Password" type="password"/>
+    <button>Login</button>
+    <h3 id="pesan">Pemesanan</h3>
+    <input placeholder="Nama" type="text"/>
+    <input placeholder="Email" type="email"/>
+    <input placeholder="Nomor Telepon" type="tel"/>
+    <input placeholder="dd/mm/yyyy" type="date"/>
+    <input placeholder="Durasi Sewa (hari)" type="number"/>
+    <button>Pesan Sekarang</button>
+   </div>
+   
+   <div class="main-content">
+    <div class="promotions">
+     <h3 id="promo">Promosi Rental Mobil Ichaan</h3>
+     <div class="promo-slider">
+      <div class="promo-slide">
+       <img alt="Promo 1" height="400" src="img/promo1.png" width="800"/>
+       <p>
+        Dapatkan diskon hingga 20% untuk pemesanan pertama Anda! Gunakan kode promo: ICHAAN20
+       </p>
+      </div>
+      <div class="promo-slide">
+       <img alt="Promo 2" height="400" src="img/promo2.png" width="800"/>
+       <p>
+        Promo berlaku hingga 31 Desember 2024.
+       </p>
+      </div>
+     </div>
+     <div class="promo-buttons">
+      <button onclick="prevSlide()">
+       ❮
+      </button>
+      <button onclick="nextSlide()">
+       ❯
+      </button>
+     </div>
+    </div>
+    <div class="cars">
+     <div class="car" id="mobil">
+      <img alt="MERCY S450" height="200" src="img/1.png" width="300"/>
+      <p>MERCY S450</p>
+      <p>Rp 3.500.000 / 24 Jam</p>
+     </div>
+     <div class="car">
+      <img alt="VELLFIRE" height="200" src="img/2.png" width="300"/>
+      <p>VELLFIRE</p>
+      <p>Rp 2.500.000 / 24 Jam</p>
+     </div>
+     <div class="car">
+      <img alt="FORTUNER" height="200" src="img/3.png" width="300"/>
+      <p>FORTUNER</p>
+      <p>Rp 1.800.000 / 24 Jam</p>
+     </div>
+     <div class="car">
+      <img alt="LEXUS RX" height="200" src="img/4.png" width="300"/>
+      <p>LEXUS RX</p>
+      <p>Rp 2.000.000 / 24 Jam</p>
+     </div>
+     <div class="car">
+      <img alt="MERCY E300" height="200" src="img/5.png" width="300"/>
+      <p>MERCY E300</p>
+      <p>Rp 2.500.000 / 24 Jam</p>
+     </div>
+     <div class="car">
+      <img alt="ALPHARD" height="200" src="img/6.png" width="300"/>
+      <p>ALPHARD</p>
+      <p>Rp 2.500.000 / 24 Jam</p>
+     </div>
+     <div class="car">
+      <img alt="HIACE" height="200" src="img/7.png" width="300"/>
+      <p>HIACE</p>
+      <p>Rp 1.500.000 / 24 Jam</p>
+     </div>
+     <div class="car">
+      <img alt="INNOVA" height="200" src="img/8.png" width="300"/>
+      <p>INNOVA</p>
+      <p>Rp 1.000.000 / 24 Jam</p>
+     </div>
+     <div class="car">
+      <img alt="AVANZA" height="200" src="img/9.png" width="300"/>
+      <p>AVANZA</p>
+      <p>Rp 800.000 / 24 Jam</p>
+     </div>
+     <div class="car">
+      <img alt="XENIA" height="200" src="img/10.png" width="300"/>
+      <p>XENIA</p>
+      <p>Rp 700.000 / 24 Jam</p>
+     </div>
+     <div class="car">
+      <img alt="PAJERO" height="200" src="img/11.png" width="300"/>
+      <p>PAJERO</p>
+      <p>Rp 2.200.000 / 24 Jam</p>
+     </div>
+     <div class="car">
+      <img alt="CRV" height="200" src="img/12.png" width="300"/>
+      <p>CRV</p>
+      <p>Rp 1.600.000 / 24 Jam</p>
+     </div>
+    </div>
+    <div class="profile-section">
+     <h3>
+      Profil Pengembang dan Usaha
+     </h3>
+     <div class="profiles">
+      <div class="profile">
+       <img alt="Developer Profile Picture" height="100" src="img/pemilik.jpg" width="100"/>
+       <h4>
+        M.Ikhsan Aflahal
+       </h4>
+       <p>
+        Pengembang web dengan pengalaman lebih dari 5 tahun dalam membangun aplikasi web yang responsif dan user-friendly. Menguasai berbagai teknologi web seperti HTML, CSS, JavaScript, dan framework modern.
+       </p>
+      </div>
+      <div class="profile">
+       <img alt="Business Profile Picture" height="100" src="img/logo.png" width="100"/>
+       <h4>
+        Profil Usaha
+       </h4>
+       <p>
+        Rental Mobil Ichaan adalah perusahaan yang bergerak di bidang penyewaan mobil dengan berbagai pilihan kendaraan yang dapat disesuaikan dengan kebutuhan pelanggan. Kami berkomitmen untuk memberikan pelayanan terbaik dengan harga yang kompetitif.
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="footer">
+   <p>
+    © 2024 Rental Mobil Ichaan. All rights reserved.
+   </p>
+   <div class="social-icons" id="sosmed">
+    <a href="https://www.facebook.com/mikhsan.aflahal.7">
+     <i class="fab fa-facebook-f">
+     </i>
+    </a>
+    <a href="https://github.com/IkhsanAflahal/PemrogramanWeb-1">
+     <i class="fab fa-github">
+     </i>
+    </a>
+    <a href="https://www.linkedin.com/in/ikhsan-aflahal-368b7032b/">
+     <i class="fab fa-linkedin">
+     </i>
+    </a>
+    <a href="https://www.instagram.com/ikhsanaflahal/">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+   </div>
+  </div>
+ </body>
+</html>

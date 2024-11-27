@@ -1,0 +1,181 @@
+body {
+         font-family: 'Roboto', sans-serif;
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+     }
+     .navbar {
+         background-color: #003366;
+         color: white;
+         padding: 10px 20px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+     }
+     .navbar h1 {
+         margin: 0;
+         font-size: 24px;
+     }
+     .navbar ul {
+         list-style: none;
+         margin: 0;
+         padding: 0;
+         display: flex;
+     }
+     .navbar ul li {
+         margin-left: 20px;
+     }
+     .navbar ul li a {
+         color: white;
+         text-decoration: none;
+     }
+     .navbar img {
+         height: 40px;
+         margin-right: 10px;
+     }
+     .hero {
+         position: relative;
+         text-align: center;
+         color: white;
+     }
+     .hero img {
+         width: 100%;
+         height: 400px;
+     }
+     .hero h2 {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         background-color: rgba(0, 0, 0, 0.5);
+         padding: 10px 20px;
+     }
+     .container {
+         display: flex;
+         padding: 20px;
+     }
+     .sidebar {
+         width: 25%;
+         padding: 20px;
+         background-color: #f4f4f4;
+     }
+     .sidebar h3 {
+         margin-top: 0;
+     }
+     .sidebar input, .sidebar select, .sidebar button {
+         width: 100%;
+         padding: 10px;
+         margin: 10px 0;
+         border: 1px solid #ccc;
+         border-radius: 5px;
+     }
+     .sidebar button {
+         background-color: #003366;
+         color: white;
+         border: none;
+     }
+     .main-content {
+         width: 75%;
+         padding: 20px;
+     }
+     .main-content .promotions {
+        background-color: #FFD700;
+         padding: 20px;
+         margin-top: 20px;
+         position: relative;
+         overflow: hidden;
+     }
+     .main-content .promotions h3 {
+         margin-top: 0;
+     }
+     .main-content .promotions .promo-slider {
+         display: flex;
+         transition: transform 0.5s ease-in-out;
+     }
+     .main-content .promotions .promo-slide {
+         min-width: 100%;
+         box-sizing: border-box;
+     }
+     .main-content .promotions .promo-slide img {
+         width: 100%;
+         height: 600px;
+     }
+     .main-content .promotions .promo-slide p {
+         text-align: center;
+         background-color: #003366;
+         color: white;
+         padding: 10px;
+     }
+     .main-content .promotions .promo-buttons {
+         position: absolute;
+         top: 50%;
+         width: 100%;
+         display: flex;
+         justify-content: space-between;
+         transform: translateY(-50%);
+     }
+     .main-content .promotions .promo-buttons button {
+         background-color: rgba(0, 0, 0, 0.5);
+         border: none;
+         color: white;
+         padding: 10px;
+         cursor: pointer;
+     }
+     .main-content .cars {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-between;
+         margin-top: 20px;
+     }
+     .main-content .cars .car {
+         background-color: #003366;
+         color: white;
+         width: 30%;
+         margin-bottom: 20px;
+         text-align: center;
+         padding: 10px;
+         border-radius: 5px;
+     }
+     .main-content .cars .car img {
+         width: 100%;
+         height: auto;
+         border-radius: 5px;
+     }
+     .footer {
+         background-color: #003366;
+         color: white;
+         text-align: center;
+         padding: 20px;
+         margin-top: 20px;
+     }
+     .footer .social-icons {
+         margin: 10px 0;
+     }
+     .footer .social-icons a {
+         color: white;
+         margin: 0 10px;
+         text-decoration: none;
+     }
+     .profile-section {
+         margin-top: 20px;
+     }
+     .profile-section h3 {
+         text-align: center;
+     }
+     .profile-section .profiles {
+         display: flex;
+         justify-content: space-around;
+         margin-top: 20px;
+     }
+     .profile-section .profile {
+         text-align: center;
+         width: 45%;
+         background-color: #FFD700;
+         padding: 20px;
+         border-radius: 5px;
+     }
+     .profile-section .profile img {
+         border-radius: 50%;
+         width: 100px;
+         height: 100px;
+     }
