@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Authentication</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <form id="loginform" onsubmit="login()">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+        <input type="submit" value="login">
+        <input type="reset" value="batal">
+    </form>
+
+        <!--Program JavaScript-->
+    <script>
+        function login(){
+            let user = document.getElementById("username").value;
+            let pass = document.getElementById("password").value;
+            let form = document.getElementById("loginform");
+
+            if (user == "ikhsan" && pass == "12345"){
+                alert("Login Berhasil");
+                form.setAttribute("action", "login2.html");
+            } else{
+            alert("Login Gagal, Coba Lagi");
+        }
+    }
+    </script>
+</body>
+</html>
